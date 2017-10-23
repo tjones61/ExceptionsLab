@@ -32,7 +32,7 @@ public class Challenge1 {
     // Use exception handling to prevent a crash in the event that fullName
     // is null or empty. Throw the exception to the calling method. and handle
     // it there.
-    public String extractLastName(String fullName) {
+    public final String extractLastName(String fullName) throws IllegalArgumentException{
         String lastName = null;
         
         // Your code goes here.
